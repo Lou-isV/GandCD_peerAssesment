@@ -1,5 +1,5 @@
-# Getting and Cleaning Data 
-# run_analysis code project
+# Getting and Cleaning Data - run_analysis code project
+
 
 ##Files in this repo
 - README.md 
@@ -20,6 +20,6 @@ The purpose of this project is to demonstrate your ability to collect, work with
 - Unzip the data
 - Set your working directory to the folder in the unzipped file called *UCI HAR Dataset*
 - Read the training and test files as well as the features and activity labels files.
-- Run 'source("run_analysis.R")', then it will generate a new file **tiny.txt in your** working directory.
+- Run `source("run_analysis.R")`, then it will generate a new file **tiny.txt**  in yourworking directory.
 
 The code will automatically install packages needed..
