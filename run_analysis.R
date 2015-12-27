@@ -1,4 +1,7 @@
-
+install.packages("tidyr")
+install.packages("plyr")
+install.packages("dplyr")
+install.packages("knitr")
 library(tidyr)
 library(plyr)
 library(dplyr)
