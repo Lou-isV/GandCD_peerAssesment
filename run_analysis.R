@@ -7,19 +7,19 @@ library(plyr)
 library(dplyr)
 library(knitr)
 
-y_train <- read.table("train/y_train.txt", quote="\"")
-y_test <- read.table("test/y_test.txt", quote="\"")
+y_train <- read.table("train/y_train.txt")
+y_test <- read.table("test/y_test.txt")
 
-x_train <- read.table("train/X_train.txt", quote="\"")
-x_test <- read.table("test/X_test.txt", quote="\"")
+x_train <- read.table("train/X_train.txt")
+x_test <- read.table("test/X_test.txt")
 
-features <- read.table("features.txt", quote="\"")
+features <- read.table("features.txt")
 
-activity_labels <- read.table("activity_labels.txt", quote="\"")
+activity_labels <- read.table("activity_labels.txt")
 colnames(activity_labels)<- c("ID","Activity")
 
-subject_train <- read.table("train/subject_train.txt", quote="\"")
-subject_test <- read.table("test/subject_test.txt", quote="\"")
+subject_train <- read.table("train/subject_train.txt")
+subject_test <- read.table("test/subject_test.txt")
 
 actID <- rbind(y_test, y_train)
 colnames(actID) <- c("ID")
